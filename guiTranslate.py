@@ -29,8 +29,12 @@ Renyuan Lyu
 
 from tkinter.filedialog import *
 from tkinter import *
-from idlelib.Percolator import Percolator
-from idlelib.ColorDelegator import ColorDelegator
+
+#from idlelib.Percolator import Percolator
+#from idlelib.ColorDelegator import ColorDelegator
+
+from idlelib.percolator import Percolator
+from idlelib.colorizer import ColorDelegator
 
 import os, sys,re
 import importlib
